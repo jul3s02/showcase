@@ -1,0 +1,34 @@
+/* Highlight gallery css */
+
+.highlightContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 2rem;
+  margin: 1rem;
+}
+
+.highlights {
+  border: 3px solid rgba(123, 123, 123,1);
+  border-radius: 1.5rem;
+  padding: 1rem;
+  box-shadow: 7px 4px rgba(123, 123, 123, 0.5);
+  max-width: 20rem;
+}
+
+.highlights figure {
+  margin: 0;
+}
+
+.highlights img{
+  width: 100%;
+}
+
+.highlightContainer h3 {
+  line-height: 1;
+  margin: 0;
+  margin-bottom: 0.2rem;
+}
