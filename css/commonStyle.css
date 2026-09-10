@@ -50,7 +50,7 @@ nav{
   background-color: green;
   box-shadow:rgba(0, 0, 0, 0.75) 4px 4px;
   border-radius: 15px;
-  margin: 2.5vw;
+  margin: auto 2.5vw auto 2.5vw;
 
 }
 
