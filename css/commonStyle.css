@@ -5,6 +5,11 @@
   
 }
 
+html {
+  scroll-padding-top: 7rem;
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family:"Inter", system-ui, sans-serif;
