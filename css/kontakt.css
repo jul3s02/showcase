@@ -1,0 +1,10 @@
+.contLinks a{
+    display: grid;
+    grid-template-columns: minmax(1rem, 1fr) 2fr; 
+    grid-template-rows: 1;
+    align-items: center;
+}
+
+.contLinkTitle {
+    width: fit-content;
+}
