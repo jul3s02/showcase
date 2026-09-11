@@ -7,7 +7,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/fonts/inter-v20-latin/inter-v20-latin-regular.woff2") format("woff2");
+  src: url("../fonts/inter-v20-latin/inter-v20-latin-regular.woff2") format("woff2");
 }
 
 /* Bold (700) */
