@@ -1,23 +1,44 @@
 /* Highlight gallery css */
 
+main{
+  margin-top: 3rem;
+}
+
+.highlightHeader {
+  margin: 1rem;
+  padding-left: 1rem;
+}
+
 .highlightContainer {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  margin: 0 auto;
   padding: 1rem;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 2rem;
   margin: 1rem;
+  background-color:rgba(0, 0, 0, 0.05);
 }
 
 .highlights {
-  border: 3px solid rgba(123, 123, 123,1);
+  flex: 1 1 15rem; /* flex-grow: 1, flex-shrink: 1, flex-basis: 15rem (minsta bredd) */
+  max-width: 30rem; /* Maximal bredd */
+    border: 0.5rem solid rgba(0, 0, 0, 0);
   border-radius: 1.5rem;
   padding: 1rem;
-  box-shadow: 7px 4px rgba(123, 123, 123, 0.5);
-  max-width: 20rem;
+  box-shadow: 7px 4px rgba(0, 0, 0, 0.1);
+  background-color: #5C6D37;
+  color: #fefae1;
+  transition: 500ms ease ;
 }
+
+.highlights:hover {
+  outline-offset: -4px; 
+  transform:scale(1.015);
+  border: rgba(0, 0, 0, 0.25) solid 0.35rem;
+  background-color: #5d6d37;
+}
+
 
 .highlights figure {
   margin: 0;
@@ -31,4 +52,7 @@
   line-height: 1;
   margin: 0;
   margin-bottom: 0.2rem;
+
 }
+
+
