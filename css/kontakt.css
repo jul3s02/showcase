@@ -1,3 +1,18 @@
+
+.contFormSec {
+    border: 1px solid black;
+
+    margin: 1rem;
+}
+
+.contFormSec input {
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+
+
+
 .contLinks a{
     display: grid;
     grid-template-columns: minmax(1rem, 1fr) 2fr; 
@@ -7,4 +22,13 @@
 
 .contLinkTitle {
     width: fit-content;
+}
+
+.contLinks img{
+    width: 2rem;
+    height: 2rem;
+}
+
+img[src=""] {
+    width: 4rem;
 }

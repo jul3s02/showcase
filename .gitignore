@@ -1,0 +1,28 @@
+# Windows 11
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Web & JavaScript
+node_modules/
+dist/
+build/
+.cache/
+
+# Känsliga filer & loggar
+.env
+.env.local
+*.log
