@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2>Inskickade värden</h2>
+  <div id="resultat"></div>
+
+  <script>
+    // Hämta parametrar från URL:en (?namn=...&epost=...)
+    const params = new URLSearchParams(window.location.search);
+    const resultatContainer = document.getElementById('resultat');
+
+    if (params.size === 0) {
+      resultatContainer.textContent = "Inga värden skickades.";
+    } else {
+      // Gå igenom varje värde och skriv ut på sidan
+      params.forEach((value, key) => {
+        const p = document.createElement('p');
+        p.innerHTML = `<strong>${key}:</strong> ${value}`;
+        resultatContainer.appendChild(p);
+      });
+    }
+  </script>
+</body>
+</html>
